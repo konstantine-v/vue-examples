@@ -25,7 +25,7 @@ bun install
 ### Compile and Hot-Reload for Development
 ```sh
 bun run tailwindcss -i ./src/assets/base.css -o ./src/assets/m
-ain.css #Build CSS Library
+ain.css --watch #Build CSS Library and watch for changes
 bun run dev #Run site
 ```
 

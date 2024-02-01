@@ -1,16 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
+import NavBar from './components/NavBar.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <!-- Navigation -->
+  <NavBar></NavBar>
 
-    <div class="wrapper">
-      <HelloWorld msg="Fuck yeah!" />
-    </div>
-  </header>
+  <!-- Replace below with routes -->
+  <Home></Home>
 </template>
 
 <style scoped>
