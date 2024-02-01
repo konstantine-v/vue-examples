@@ -10,11 +10,11 @@ I've used Vue in the past but this is specifically to learn the latest version, 
 Authentication and permissions will be an afterthough since I'm more worried about the Front-End portion of this rather than any potential back-end features, although the goal will be to add it in without relying on very much back-end code.
 
 ## Regarding the setup
-This project utilizes `bun` since it's easier to setup and manage for projects
+This project [utilizes bun](https://bun.sh/docs/installation) since it's easier to setup and manage for projects
 
-I've opted for using TailwindCSS to make building components easier. Other options are a bit too cumbersome.
+I've opted for using [TailwindCSS](https://tailwindcss.com/) to make building components easier. Other options are a bit too cumbersome.
 
-Finally, I've included ESLint for easy linting.
+Finally, I've included ESLint for linting later on.
 
 
 ## Project Setup
