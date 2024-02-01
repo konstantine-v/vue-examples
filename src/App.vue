@@ -1,15 +1,14 @@
 <script setup>
-import Home from './components/Home.vue'
 import NavBar from './components/NavBar.vue'
-// import TheWelcome from './components/TheWelcome.vue'
+import RoutesView from './components/RoutesView.vue'
 </script>
 
 <template>
   <!-- Navigation -->
   <NavBar></NavBar>
 
-  <!-- Replace below with routes -->
-  <Home></Home>
+  <!-- Routes/Components Loaded -->
+  <RoutesView></RoutesView>
 </template>
 
 <style scoped>
